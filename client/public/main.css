@@ -180,6 +180,7 @@ ul.work li.active {
 .cardButton a {
   text-decoration: none !important;
   color: white;
+  padding: 10px;
 }
 
 .buttonWrapper {

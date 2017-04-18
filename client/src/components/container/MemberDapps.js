@@ -81,7 +81,7 @@ export class MemberDapps extends React.Component {
             <div className="memberDappsCard">
               <Card key={index}  >
                 <br></br>
-                <CardImg top width="85%" src={dapp.dappimagelink} alt="Card image cap" />
+                <CardImg top width="85%" height="40%" overflow="hidden" src={dapp.dappimagelink} alt="Card image cap" />
                 <CardBlock>
                   <CardTitle><b>{dapp.dappname}</b></CardTitle>
                   <br></br>
