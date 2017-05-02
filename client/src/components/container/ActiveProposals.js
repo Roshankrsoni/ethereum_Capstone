@@ -163,7 +163,7 @@ export class ActiveProposals extends React.Component {
                     <div className="activeProposalsCard" >
                         <Card key={index} className="activeProposalsCard" >     
                             <br></br>                                          
-                            <CardImg top width="85%" height="40%" overflow="hidden" src={proposal.dappimagelink} alt="Card image cap" />
+                            <CardImg top width="85%" height="28%" overflow="hidden" src={proposal.dappimagelink} alt="Card image cap" />
                             <CardBlock className="fitContainer" >
                                 <CardTitle><b> {proposal.dappname}</b></CardTitle>
                                 <CardText className="scroll"><b><u>Description:</u></b> {proposal.dappdescription}</CardText>    
